@@ -10,9 +10,7 @@
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "*://*.adjaranet.com/*",
-    "*://*.open5.myvideo.ge/*",
-    "*://*.open2.myvideo.ge/*"
+    "*://*.myvideo.ge/*"
   ],
   "background": {
     "scripts": ["adjarablock.js"]
