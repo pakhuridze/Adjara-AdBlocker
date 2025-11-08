@@ -1,7 +1,3 @@
-chrome.webRequest.onBeforeRequest.addListener(
-  function(details) {
-    return { cancel: true };
-  },
-  { urls: ["*://*.open5.myvideo.ge/*", "*://*.open2.myvideo.ge/*"] },
-  ["blocking"]
-);
+// Manifest V3: Blocking is now handled by declarativeNetRequest API
+// Rules are defined in rules.json file
+// No background script needed for blocking functionality
